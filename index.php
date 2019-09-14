@@ -5,7 +5,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script>
-		var image_names = ["wagegap.png", "1by1.png", "andy.png", "code.png", "french.png"];
+		var image_names = ["waldo.jpg", "sun.jpg", "princess.jpg", "solo.jpg"];
 		var yes = 0;
 		var no = 0;
 		
