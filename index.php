@@ -18,10 +18,7 @@
 		function getHTML(file) {
 			var yes_text = "YES";
 			var no_text = "NO";
-			if(file == "french.png") {
-				yes_text = "OUI";
-				no_text = "NON";
-			}
+			
 			return '<div id=' + file + ' class="page hidden animated slideInRight">\n' +
 				'<div class="absolutecenter">\n' +
 					'<img class="nodrag proposal" src="' + file + '" /><br>\n' +
