@@ -5,7 +5,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script>
-		var image_names = ["waldo.jpg", "sun.jpg", "princess.jpg", "solo.jpg"];
+		var image_names = ["wagegap.png", "1by1.png", "andy.png", "code.png", "french.png"];
 		var yes = 0;
 		var no = 0;
 		
@@ -18,6 +18,10 @@
 		function getHTML(file) {
 			var yes_text = "YES";
 			var no_text = "NO";
+			if(file == "french.png") {
+				yes_text = "OUI";
+				no_text = "NON";
+			}
 			return '<div id=' + file + ' class="page hidden animated slideInRight">\n' +
 				'<div class="absolutecenter">\n' +
 					'<img class="nodrag proposal" src="' + file + '" /><br>\n' +
@@ -214,7 +218,7 @@
 <body>
 	<div id="home" class="page">
 		<div class="absolutecenter">
-			<p>hey...<br><br>You will given the option to answer 'YES' or 'NO' for each.</p>
+			<p>You will given the option to answer 'YES' or 'NO' for each.</p>
 			<button onclick="start()">START</button>
 		</div>
 	</div>
@@ -225,7 +229,7 @@
 				<h1 style="font-size: 50px; font-family: 'Parisienne', cursive;">Homecoming 2019</h1>
 				<h2 style="font-style: italic; margin-bottom: 0px;">You Answered</h2><br>
 				<h3 id="result" style="margin-top: 0px;"></h3><br><br>
-				<h3 style="font-family: 'Parisienne'">See You At 6!</h3><br><br>
+				<h3 style="font-family: 'Marck Script', cursive;">See You At 6!</h3><br><br>
 				<span style="font-style: italic;">- <3 Torin</span>
 			</div>
 		</div>
